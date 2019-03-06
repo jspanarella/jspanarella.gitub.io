@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Playfair+Display');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: "Open Sans", serif;
+}
+
+h1{
+  color: #003bde;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "Open Sans", serif;
+}
+
+nav {
+  padding: 15px 60px;
+  display: flex;
+  justify-content:space-between;
+}
+
+nav a {
+  color: #051033;
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-left: 15px;
+}
+
+header {
+  display: flex;
+}
+
+header h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 42px;
+}
+
+
+section {
+  text-align: center;
+  padding: 90px 60px;
+}
+
+section h3 {
+  font-size: 12px;
+  letter-spacing: .5ps;
+  color: #051033;
+}
+
+section p {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+}
+
+.btn {
+  color: #003bde;
+  border: 1px solid white;
+  font-size: 18px;
+  letter-spacing: .3px;
+  line-height: 18px;
+  border-radius: 3px;
+  background-color: white;
+  padding: 15px 30px;
+  margin: 30px 0px;
+}
+
+.btn-nav {
+  color: white;
+  border: 0px solid white;
+  font-size: 14px;
+  letter-spacing: .3px;
+  border-radius: 3px;
+  background-color: #003bde;
+  padding: 8px 15px;
+}
+
+#left-col {
+  background-image: url(https://images.unsplash.com/photo-1551698618-1dfe5d97d256?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 325px;
+  padding: 100px 60px;
+  width: 50%;
+}
+
+#right-col {
+  background-image: url(https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 325px;
+  padding: 100px 60px;
+  width: 50%;
+}
+
+#footer a{
+  color: rgba(122, 131, 142, 0.6);
+  text-decoration: none;
+  padding-right: 30px;
+  font-size: 14px;
+}
+#footer  {
+  padding: 40px 60px;
+  border-top: 1px solid rgba(122, 131, 142, 0.6);
+}
